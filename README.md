@@ -21,5 +21,3 @@ Built with **Node.js**, **Express**, and **MongoDB**.
 - **Environment Management:** dotenv  
 
 ---
-
-## 📂 Project Structure
