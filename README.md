@@ -21,3 +21,20 @@ Built with **Node.js**, **Express**, and **MongoDB**.
 - **Environment Management:** dotenv  
 
 ---
+
+📡 API Endpoints
+🔑 Auth
+Method	Endpoint	Description
+POST	/api/auth/register	Register a new user
+POST	/api/auth/login	Login user & get JWT
+📜 Subscriptions
+Method	Endpoint	Description
+GET	/api/subscriptions	Get all subscriptions (user)
+POST	/api/subscriptions	Add a new subscription
+PUT	/api/subscriptions/:id	Update a subscription
+DELETE	/api/subscriptions/:id	Delete a subscription
+🔔 Reminders
+
+The API sends notifications 7 days before renewal.
+
+You can configure reminder intervals in the code.
